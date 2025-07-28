@@ -1,27 +1,30 @@
-import React from 'react'
-// import Header from './components/classComponents/Headerader'
-// import Footer from './components/classComponents/Footer'
-// import Sidebar from './components/classComponents/Sidebar'
-
+import React, {useState, useEffect} from 'react'
 import Header from './components/functionComponents/Header'
 import Footer from './components/functionComponents/Footer'
 import Sidebar from './components/functionComponents/Sidebar'
+import UseStateExample from './components/functionComponents/UseStateExample'
+import UseEffectExample from './components/functionComponents/UseEffectExample'
+import UseMemoExample from './components/functionComponents/UseMemoExample'
 
 const App = () => {
-  let header = "Header";
-  let footer = "Footer";
-  let sidebar = "Sidebar";
 
 
   return (
     <div>
-      {/* <Header />    
-      <Sidebar />
-      <Footer />   */}
 
-      <Header value={header} lastname={sidebar}/>
+      {/* <Header value={header} lastname={sidebar}/>
       <Sidebar value={sidebar}/>
-      <Footer value={footer}/>
+      <Footer value={footer}/> */}
+
+      {/* useState eample */}
+      {/* <UseStateExample /> */}
+
+      {/* useEffect example */}
+      {/* <UseEffectExample /> */}
+
+      {/* useMemo example */}
+      <UseMemoExample />
+
 
     </div>
   )
