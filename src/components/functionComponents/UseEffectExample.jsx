@@ -7,15 +7,12 @@ const UseEffectExample = () => {
 
     useEffect(() => {
 
-        const timer = setInterval(() => {
-            console.log("tick")
-        }, 1000)
+        console.log("useEffect called");
 
+        // const timer = setInterval(() => {
+        //     console.log("tick")
+        // }, 1000)
 
-        return () => {
-            // clearInterval(timer)
-            console.log("cleanup")
-        }
     },[value])
 
   return (

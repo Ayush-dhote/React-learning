@@ -19,7 +19,7 @@ const Memo = () => {
         return add*10
     },[add]);
 
-    // function multiply() {
+    //  function multiply() {
     //     console.log("Multiply function called");
     //     return add * 10;
     // }

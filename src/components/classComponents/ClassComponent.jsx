@@ -7,12 +7,15 @@ export default class ClassComponent extends Component {
     this.state = {
       count: 0,
     };   
-  }
 
+  }
 
   componentDidMount() { 
     console.log('Component mounted');
+
   }
+
+
 
   increment = () => {
     this.setState({ count: this.state.count + 1 });
@@ -28,6 +31,7 @@ export default class ClassComponent extends Component {
 
   componentWillUnmount() {
     console.log('Component will unmount');
+
   }
 
   render() {
